@@ -1,9 +1,43 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: purple;
 }
 header {
     height: 90px;
     background: pink;
+}
+.icon-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: inherit;
+    width: 450px;
+    margin: 0px auto;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    letter-spacing: 1px;
+    color: #753e3e;
+}
+img {
+    width: 70px;
+}
+.box-container{
+    border:red solid 1px;
+    width: 700px;
+    margin: 0px auto;
+    margin-top: 15px;
+    padding: 5px;
+}
+h1 {
+    margin: 5px 0px;
+    text-align: center;
+}
+.container-options{
+    border: red solid 1px;
+    display: flex;
+    justify-content: space-around;
 }
