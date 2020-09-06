@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: purple;
+}
+header {
+    height: 90px;
+    background: pink;
+}
