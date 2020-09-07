@@ -56,6 +56,9 @@ h2 {
     padding: 1em;
     border-radius: 7px;
     background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .input-option {
     padding: .2em 2em;
@@ -67,10 +70,10 @@ h2 {
     
 }
 .input-button {
-    box-shadow:inset 0px 1px 0px 0px #fbafe3;
-	background-color:#ff5bb0;
+    box-shadow:inset 0px 1px 0px 0px #f6f6f6;
+	background-color: #ff5181cf;
 	border-radius:6px;
-	border:1px solid #ee1eb5;
+	border:1px solid #f71487;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -84,7 +87,7 @@ h2 {
     outline: none;
 }
 .input-button:hover {
-    background-color:#ef027d;
+    background-color:#f3376bcf;
 }
 .input-button:active {
     position:relative;
