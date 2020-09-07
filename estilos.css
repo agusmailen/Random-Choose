@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     padding: 0px;
+    background: #F6F6F6;
+    text-align: center;
 }
 header {
     height: 90px;
@@ -17,6 +19,7 @@ header {
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
     font-size: 2em;
     margin: 0px;
     letter-spacing: 1px;
@@ -26,18 +29,40 @@ img {
     width: 70px;
 }
 .box-container{
-    border:red solid 1px;
-    width: 700px;
+    /* border:red solid 1px; */
+    width: 800px;
     margin: 0px auto;
-    margin-top: 15px;
-    padding: 5px;
+    margin-top: 2.5em;
+    background: white;
+    border-radius: 5px;
+    padding: 1em;
 }
-h1 {
-    margin: 5px 0px;
-    text-align: center;
+h1,
+h2,
+.answer {
+    /* text-align: center; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 .container-options{
-    border: red solid 1px;
     display: flex;
     justify-content: space-around;
+    padding: 1em;
+}
+h2 {
+    margin: 0px;
+}
+.option {
+    padding: 1em;
+    border-radius: 7px;
+    background: #F6F6F6;
+}
+input {
+    padding: .2em 2em;
+    margin: 1.5em;
+    border-style: hidden;
+    border-bottom: #ff6295 solid 2px;
+    outline: none;
+    background: #F6F6F6;
+    
 }
