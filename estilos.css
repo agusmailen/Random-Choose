@@ -57,7 +57,7 @@ h2 {
     border-radius: 7px;
     background: #F6F6F6;
 }
-input {
+.input-option {
     padding: .2em 2em;
     margin: 1.5em;
     border-style: hidden;
@@ -65,4 +65,28 @@ input {
     outline: none;
     background: #F6F6F6;
     
+}
+.input-button {
+    box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background-color:#ff5bb0;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    padding:9px 33px;
+    margin: 1em;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #c70067;
+    outline: none;
+}
+.input-button:hover {
+    background-color:#ef027d;
+}
+.input-button:active {
+    position:relative;
+	top:1px;
 }
