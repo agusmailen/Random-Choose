@@ -16,21 +16,25 @@
     </header>
     <div class="box-container">
         <h1>Introduce...</h1>
-        <div class="container-options">
-            <div class="option">
+        <div class="container-options" >
+            <div class="option" >
                 <h2> Option A</h2>
-                <input class="input-option" type="text">
+                <input class="input-option" type="text" id="option-uno">
             </div>
-            <div class="option">
+            <div class="option" >
                 <h2> Option B</h2>
-                <input class="input-option" type="text">
+                <input class="input-option" type="text" id="option-dos">
             </div>
         </div>
-        <input type="button" class="input-button" value="Decide!">
-        <div class="answer">
-            <h2>Answer:  </h2>
-            
+        <input type="button" class="input-button" value="Decide!" id="decide">
+        <div class="container-answer" style="display: none;">
+            <div class="box-ans">
+                <h2>Answer:  </h2>
+                <h2 class="answer"></h2>
+            </div>
+            <input type="button" class="button-again" value="Decide again" id="replay">
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
