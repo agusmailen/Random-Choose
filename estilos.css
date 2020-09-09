@@ -107,3 +107,6 @@ h2 {
 .answer {
     margin: 0em .4em;
 }
+.box-ans {
+    display: flex;
+}
