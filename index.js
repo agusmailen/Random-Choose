@@ -14,6 +14,7 @@ const tomarDecision = () => !randomize(0,1) ? showAnswer(decisionUno.value) : sh
 
 const showAnswer = (answer) => {
     container.style.display = "flex";
+    ans.innerHTML = '';
     ans.appendChild(document.createTextNode(answer));
 }
 
